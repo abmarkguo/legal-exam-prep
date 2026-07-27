@@ -142,24 +142,56 @@ legal-exam-prep/
 ## 五、流程图一览
 
 ### 架构图（系统如何组织）
-| 图 | 内容 |
-|----|------|
-| `system-overview-en.svg` | 系统总览：四大模块 + 权威溯源底座 |
-| `exam-structure-en.svg` | 考试结构：客观题 → 主观题 两阶段 |
-| `question-types-en.svg` | 题型分布：客观题（单/多/不定项）+ 主观题（案例/文书/论述） |
-| `knowledge-query-en.svg` | 考点速查流程 |
-| `practice-loop-en.svg` | 练题闭环：练 → 析 → 诊 → 固 |
-| `mock-generation-en.svg` | 模拟题命制流程（明确非真题标注） |
-| `study-workflow-en.svg` | 备考全流程：基础 → 强化 → 客观题 → 主观题 → 拿证 |
+
+**system-overview-en.svg** — 系统总览：四大模块 + 权威溯源底座
+
+![系统总览](docs/images/system-overview-en.svg)
+
+**exam-structure-en.svg** — 考试结构：客观题 → 主观题 两阶段
+
+![考试结构](docs/images/exam-structure-en.svg)
+
+**question-types-en.svg** — 题型分布：客观题（单/多/不定项）+ 主观题（案例/文书/论述）
+
+![题型分布](docs/images/question-types-en.svg)
+
+**knowledge-query-en.svg** — 考点速查流程
+
+![考点速查流程](docs/images/knowledge-query-en.svg)
+
+**practice-loop-en.svg** — 练题闭环：练 → 析 → 诊 → 固
+
+![练题闭环](docs/images/practice-loop-en.svg)
+
+**mock-generation-en.svg** — 模拟题命制流程（明确非真题标注）
+
+![模拟题命制](docs/images/mock-generation-en.svg)
+
+**study-workflow-en.svg** — 备考全流程：基础 → 强化 → 客观题 → 主观题 → 拿证
+
+![备考全流程](docs/images/study-workflow-en.svg)
 
 ### 演示图（具体怎么用）
-| 图 | 演示内容 |
-|----|----------|
-| `demo-knowledge-lookup.svg` | 从"一个提问"到"一张可溯源考点卡" |
-| `demo-objective-practice.svg` | 客观题抽题 → 作答 → 解析 → 错题入本 → 复盘闭环 |
-| `demo-subjective-training.svg` | 主观题答题五步法（读题→定性→找法条→要件对应→写结论） |
-| `demo-mock-question.svg` | 智能命制一道模拟题（选考点→定题型→织情境→标依据→校验） |
-| `demo-end-to-end.svg` | 考生一日备考流（四模块自然串联） |
+
+**demo-knowledge-lookup.svg** — 从"一个提问"到"一张可溯源考点卡"
+
+![考点速查演示](docs/images/demo-knowledge-lookup.svg)
+
+**demo-objective-practice.svg** — 客观题抽题 → 作答 → 解析 → 错题入本 → 复盘闭环
+
+![客观题练习演示](docs/images/demo-objective-practice.svg)
+
+**demo-subjective-training.svg** — 主观题答题五步法（读题→定性→找法条→要件对应→写结论）
+
+![主观题五步法演示](docs/images/demo-subjective-training.svg)
+
+**demo-mock-question.svg** — 智能命制一道模拟题（选考点→定题型→织情境→标依据→校验）
+
+![模拟题命制演示](docs/images/demo-mock-question.svg)
+
+**demo-end-to-end.svg** — 考生一日备考流（四模块自然串联）
+
+![一日备考流演示](docs/images/demo-end-to-end.svg)
 
 ---
 
