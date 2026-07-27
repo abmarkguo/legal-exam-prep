@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0b63a"/><stop offset="1" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="440" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="21" font-weight="bold">Legal Exam Structure 法考考试结构</text>
+
+  <!-- Two stages -->
+  <rect x="40" y="90" width="280" height="300" rx="12" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <rect x="40" y="90" width="280" height="40" rx="12" fill="url(#navy)"/>
+  <text x="180" y="116" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Stage 1 · Objective 客观题</text>
+  <text x="180" y="158" text-anchor="middle" fill="#1a3a5c" font-size="13">2 papers · 300 pts total</text>
+  <text x="180" y="176" text-anchor="middle" fill="#1a3a5c" font-size="12">合格成绩 2 年内有效</text>
+  <rect x="60" y="196" width="240" height="34" rx="7" fill="#eef3f8"/>
+  <text x="180" y="218" text-anchor="middle" fill="#1a3a5c" font-size="13">Paper A (Vol.1): 100 Q / 150 pts</text>
+  <rect x="60" y="238" width="240" height="34" rx="7" fill="#eef3f8"/>
+  <text x="180" y="260" text-anchor="middle" fill="#1a3a5c" font-size="13">Paper B (Vol.2): 100 Q / 150 pts</text>
+  <rect x="60" y="280" width="240" height="34" rx="7" fill="#eef3f8"/>
+  <text x="180" y="302" text-anchor="middle" fill="#1a3a5c" font-size="12">3h each · Computer-based</text>
+  <rect x="60" y="322" width="240" height="34" rx="7" fill="#fff4d6" stroke="#c9a227" stroke-width="1.5"/>
+  <text x="180" y="344" text-anchor="middle" fill="#8a6d10" font-size="12">Pass → unlock Stage 2</text>
+
+  <rect x="360" y="90" width="280" height="300" rx="12" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <rect x="360" y="90" width="280" height="40" rx="12" fill="url(#gold)"/>
+  <text x="500" y="116" text-anchor="middle" fill="#1a2233" font-size="16" font-weight="bold">Stage 2 · Subjective 主观题</text>
+  <text x="500" y="158" text-anchor="middle" fill="#1a3a5c" font-size="13">1 paper · 180 pts</text>
+  <text x="500" y="176" text-anchor="middle" fill="#1a3a5c" font-size="12">须在客观题合格后报考</text>
+  <rect x="380" y="196" width="240" height="34" rx="7" fill="#eef3f8"/>
+  <text x="500" y="218" text-anchor="middle" fill="#1a3a5c" font-size="13">Case Analysis 案例分析</text>
+  <rect x="380" y="238" width="240" height="34" rx="7" fill="#eef3f8"/>
+  <text x="500" y="260" text-anchor="middle" fill="#1a3a5c" font-size="13">Legal Document 文书</text>
+  <rect x="380" y="280" width="240" height="34" rx="7" fill="#eef3f8"/>
+  <text x="500" y="302" text-anchor="middle" fill="#1a3a5c" font-size="13">Essay 论述 (法治思想)</text>
+  <rect x="380" y="322" width="240" height="34" rx="7" fill="#fff4d6" stroke="#c9a227" stroke-width="1.5"/>
+  <text x="500" y="344" text-anchor="middle" fill="#8a6d10" font-size="12">4h · Open statute book</text>
+
+  <!-- arrow between -->
+  <line x1="320" y1="240" x2="360" y2="240" stroke="#c9a227" stroke-width="3"/>
+  <polygon points="360,240 350,234 350,246" fill="#c9a227"/>
+  <text x="340" y="228" text-anchor="middle" fill="#8a6d10" font-size="10">passed</text>
+</svg>
