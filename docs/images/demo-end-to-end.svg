@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="ar5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="420" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">Demo 5 · A Day of Prep 考生一日备考流</text>
+
+  <!-- center spine -->
+  <line x1="340" y1="80" x2="340" y2="380" stroke="#c9a227" stroke-width="3" stroke-dasharray="2 6"/>
+
+  <g font-size="12" font-weight="bold" text-anchor="middle">
+    <rect x="40" y="90" width="250" height="50" rx="9" fill="#1a3a5c"/><text x="165" y="114" fill="#fff">06:30 晨背 理论法/小法</text><text x="165" y="132" fill="#c9d6e3" font-size="10">背诵清单</text>
+    <rect x="390" y="140" width="250" height="50" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="515" y="164" fill="#1a3a5c">09:00 考点速查 查漏洞</text><text x="515" y="182" fill="#5a6b7b" font-size="10">knowledge lookup</text>
+    <rect x="40" y="190" width="250" height="50" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="165" y="214" fill="#1a3a5c">10:30 客观题练习 50题</text><text x="165" y="232" fill="#5a6b7b" font-size="10">objective practice</text>
+    <rect x="390" y="240" width="250" height="50" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="515" y="264" fill="#1a3a5c">14:00 主观题训练 手写</text><text x="515" y="282" fill="#5a6b7b" font-size="10">subjective training</text>
+    <rect x="40" y="290" width="250" height="50" rx="9" fill="#c9a227"/><text x="165" y="314" fill="#1a2233">16:30 模考复盘 错题本</text><text x="165" y="332" fill="#5a4a08" font-size="10">review + mock</text>
+    <rect x="390" y="340" width="250" height="50" rx="9" fill="url(#navy)"/><text x="515" y="364" fill="#fff">19:00 考点卡整理</text><text x="515" y="382" fill="#c9d6e3" font-size="10">consolidate</text>
+  </g>
+
+  <g stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar5)">
+    <line x1="340" y1="140" x2="392" y2="158"/>
+    <line x1="390" y1="190" x2="342" y2="208"/>
+    <line x1="340" y1="240" x2="392" y2="258"/>
+    <line x1="390" y1="290" x2="342" y2="308"/>
+    <line x1="340" y1="340" x2="388" y2="358"/>
+  </g>
+
+  <text x="340" y="406" text-anchor="middle" fill="#5a6b7b" font-size="12">四模块在一日中自然串联：速查补盲 → 练题巩固 → 主观表达 → 复盘闭环</text>
+</svg>
