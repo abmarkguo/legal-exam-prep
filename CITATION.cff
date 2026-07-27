@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Legal Exam Prep Skill"
+message: "If you use this skill, please cite it as below."
+type: software
+authors:
+  - name: "abmarkguo"
+repository-code: "https://github.com/abmarkguo/legal-exam-prep"
+url: "https://github.com/abmarkguo/legal-exam-prep"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-27
+keywords:
+  - legal-exam
+  - bar-exam
+  - china
+  - law-school
+  - exam-preparation
+  - openclaw
+  - skill
+  - legal-education
+  - mock-question
+  - statute-traceability
