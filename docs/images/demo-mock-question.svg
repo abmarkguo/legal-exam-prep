@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="ar4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="430" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">Demo 4 · Mock Question 模拟题命制演示</text>
+
+  <g font-size="12" font-weight="bold" text-anchor="middle">
+    <rect x="40" y="100" width="140" height="64" rx="9" fill="#1a3a5c"/><text x="110" y="128" fill="#fff">①选考点</text><text x="110" y="148" fill="#c9d6e3" font-size="10">新法热点</text>
+    <rect x="230" y="100" width="140" height="64" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="300" y="128" fill="#1a3a5c">②定题型</text><text x="300" y="148" fill="#5a6b7b" font-size="10">单/多/不定</text>
+    <rect x="420" y="100" width="140" height="64" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="490" y="128" fill="#1a3a5c">③织情境</text><text x="490" y="148" fill="#5a6b7b" font-size="10">编题面</text>
+    <rect x="420" y="200" width="140" height="64" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="490" y="228" fill="#1a3a5c">④标依据</text><text x="490" y="248" fill="#5a6b7b" font-size="10">L1–L4</text>
+    <rect x="230" y="300" width="140" height="64" rx="9" fill="#c9a227"/><text x="300" y="328" fill="#1a2233">⑤校验</text><text x="300" y="348" fill="#5a4a08" font-size="10">非真题标注</text>
+    <rect x="40" y="300" width="140" height="64" rx="9" fill="url(#navy)"/><text x="110" y="328" fill="#fff">⑥输出</text><text x="110" y="348" fill="#c9d6e3" font-size="10">解析+易错</text>
+  </g>
+
+  <g stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar4)">
+    <line x1="180" y1="132" x2="228" y2="132"/>
+    <line x1="370" y1="132" x2="418" y2="132"/>
+    <line x1="490" y1="164" x2="490" y2="198"/>
+    <line x1="420" y1="232" x2="372" y2="332"/>
+    <line x1="230" y1="332" x2="182" y2="332"/>
+  </g>
+
+  <rect x="600" y="100" width="60" height="264" rx="9" fill="#fff4d6" stroke="#c9a227" stroke-width="2"/>
+  <text x="630" y="180" text-anchor="middle" fill="#8a6d10" font-size="11" font-weight="bold" transform="rotate(90 630 230)">诚实标注 · 绝不冒充真题</text>
+
+  <line x1="490" y1="264" x2="600" y2="200" stroke="#c9a227" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar4)"/>
+
+  <text x="340" y="408" text-anchor="middle" fill="#5a6b7b" font-size="12">示例见 examples/sample-mock-question.md；模板见 templates/mock-question-template.md</text>
+</svg>
