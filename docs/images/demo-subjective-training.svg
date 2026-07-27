@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="ar3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="400" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">Demo 3 · Subjective Training 主观题答题五步法</text>
+
+  <g font-size="12" font-weight="bold" text-anchor="middle">
+    <rect x="30" y="110" width="110" height="70" rx="9" fill="#1a3a5c"/><text x="85" y="140" fill="#fff">①读题</text><text x="85" y="160" fill="#c9d6e3" font-size="10">识别争点</text>
+    <rect x="160" y="110" width="110" height="70" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="215" y="140" fill="#1a3a5c">②定性</text><text x="215" y="160" fill="#5a6b7b" font-size="10">法律定性</text>
+    <rect x="290" y="110" width="110" height="70" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="345" y="140" fill="#1a3a5c">③找法条</text><text x="345" y="160" fill="#5a6b7b" font-size="10">L1–L4</text>
+    <rect x="420" y="110" width="110" height="70" rx="9" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/><text x="475" y="140" fill="#1a3a5c">④要件对应</text><text x="475" y="160" fill="#5a6b7b" font-size="10">事实vs规范</text>
+    <rect x="550" y="110" width="110" height="70" rx="9" fill="#c9a227"/><text x="605" y="140" fill="#1a2233">⑤写结论</text><text x="605" y="160" fill="#5a4a08" font-size="10">三段式</text>
+  </g>
+
+  <g stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar3)">
+    <line x1="140" y1="145" x2="158" y2="145"/>
+    <line x1="270" y1="145" x2="288" y2="145"/>
+    <line x1="400" y1="145" x2="418" y2="145"/>
+    <line x1="530" y1="145" x2="548" y2="145"/>
+  </g>
+
+  <!-- example box -->
+  <rect x="30" y="220" width="630" height="120" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="50" y="248" fill="#1a3a5c" font-size="13" font-weight="bold">示例：甲将手表交乙保管，乙擅卖善意第三人丙</text>
+  <text x="50" y="274" fill="#5a6b7b" font-size="12">① 争点：乙丙买卖效力 + 甲能否追回</text>
+  <text x="50" y="296" fill="#5a6b7b" font-size="12">② 定性：无权处分 + 善意取得</text>
+  <text x="50" y="318" fill="#5a6b7b" font-size="12">③ 法条：L1《民法典》第311、597条</text>
+  <text x="50" y="340" fill="#5a6b7b" font-size="12">④⑤ 结论：丙善意取得所有权，甲仅得向乙索赔（结论+依据+分析）</text>
+
+  <line x1="605" y1="180" x2="345" y2="218" stroke="#c9a227" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar3)"/>
+  <text x="430" y="200" text-anchor="middle" fill="#8a6d10" font-size="10">回填示例</text>
+
+  <text x="340" y="378" text-anchor="middle" fill="#5a6b7b" font-size="12">范文见 examples/sample-subjective-case.md；模板见 templates/subjective-case-template.md</text>
+</svg>
