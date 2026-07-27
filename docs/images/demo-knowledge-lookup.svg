@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="400" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">Demo 1 · Knowledge Lookup 考点速查演示</text>
+
+  <!-- input -->
+  <rect x="40" y="100" width="220" height="70" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="150" y="128" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">用户提问</text>
+  <text x="150" y="150" text-anchor="middle" fill="#5a6b7b" font-size="12">"正当防卫的</text>
+  <text x="150" y="166" text-anchor="middle" fill="#5a6b7b" font-size="12">成立条件？"</text>
+
+  <!-- search -->
+  <rect x="300" y="100" width="180" height="70" rx="10" fill="url(#navy)"/>
+  <text x="390" y="128" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">Skill 检索</text>
+  <text x="390" y="150" text-anchor="middle" fill="#c9d6e3" font-size="11">匹配 18 科目</text>
+  <text x="390" y="166" text-anchor="middle" fill="#c9d6e3" font-size="11">考点库 + 法条库</text>
+
+  <line x1="260" y1="135" x2="298" y2="135" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- output card -->
+  <rect x="520" y="80" width="140" height="110" rx="10" fill="#fff4d6" stroke="#c9a227" stroke-width="2"/>
+  <text x="590" y="104" text-anchor="middle" fill="#8a6d10" font-size="12" font-weight="bold">输出考点卡</text>
+  <text x="590" y="124" text-anchor="middle" fill="#5a4a08" font-size="10">要件</text>
+  <text x="590" y="140" text-anchor="middle" fill="#5a4a08" font-size="10">法条依据</text>
+  <text x="590" y="156" text-anchor="middle" fill="#5a4a08" font-size="10">易混淆点</text>
+  <text x="590" y="172" text-anchor="middle" fill="#5a4a08" font-size="10">真题/模拟链接</text>
+
+  <line x1="480" y1="135" x2="518" y2="135" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <!-- traceability -->
+  <rect x="300" y="230" width="320" height="100" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="460" y="256" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">溯源标注（每点必引）</text>
+  <text x="460" y="282" text-anchor="middle" fill="#5a6b7b" font-size="12">L1《刑法》第20条（防卫起因/时间/意图/对象/限度）</text>
+  <text x="460" y="304" text-anchor="middle" fill="#5a6b7b" font-size="12">L2《正当防卫指导意见》（法发〔2020〕31号）</text>
+  <text x="460" y="326" text-anchor="middle" fill="#5a6b7b" font-size="11">→ 用户可一键核对最新生效法条</text>
+
+  <line x1="390" y1="170" x2="390" y2="228" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="590" y1="190" x2="460" y2="228" stroke="#c9a227" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+
+  <text x="340" y="372" text-anchor="middle" fill="#5a6b7b" font-size="12">速查结果：从"一个提问"到"一张可溯源考点卡"，平均 1 步到位</text>
+</svg>
