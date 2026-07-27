@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="ar2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="420" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">Demo 2 · Objective Practice 客观题练习演示</text>
+
+  <g>
+    <rect x="40" y="120" width="150" height="70" rx="10" fill="url(#navy)"/>
+    <text x="115" y="148" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">① 抽题</text>
+    <text x="115" y="168" text-anchor="middle" fill="#c9d6e3" font-size="11">按科目/题型</text>
+
+    <rect x="240" y="120" width="150" height="70" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+    <text x="315" y="148" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">② 作答</text>
+    <text x="315" y="168" text-anchor="middle" fill="#5a6b7b" font-size="11">用户选择</text>
+
+    <rect x="440" y="120" width="200" height="70" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+    <text x="540" y="148" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">③ 即时解析</text>
+    <text x="540" y="168" text-anchor="middle" fill="#5a6b7b" font-size="11">答案 + 考点 + 法条</text>
+  </g>
+
+  <line x1="190" y1="155" x2="238" y2="155" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar2)"/>
+  <line x1="390" y1="155" x2="438" y2="155" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar2)"/>
+
+  <!-- branch: correct vs wrong -->
+  <rect x="440" y="240" width="200" height="70" rx="10" fill="#c9a227"/>
+  <text x="540" y="266" text-anchor="middle" fill="#1a2233" font-size="13" font-weight="bold">④ 错题判定</text>
+  <text x="540" y="288" text-anchor="middle" fill="#5a4a08" font-size="11">对 → 考点巩固</text>
+  <text x="540" y="302" text-anchor="middle" fill="#5a4a08" font-size="11">错 → 记录错因</text>
+
+  <line x1="540" y1="190" x2="540" y2="238" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar2)"/>
+
+  <rect x="240" y="240" width="170" height="70" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="325" y="266" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">⑤ 错题入本</text>
+  <text x="325" y="288" text-anchor="middle" fill="#5a6b7b" font-size="11">错因/考点/法条</text>
+
+  <line x1="440" y1="275" x2="412" y2="275" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar2)"/>
+
+  <rect x="40" y="320" width="280" height="60" rx="10" fill="#fff4d6" stroke="#c9a227" stroke-width="2"/>
+  <text x="180" y="346" text-anchor="middle" fill="#8a6d10" font-size="13" font-weight="bold">⑥ 复盘薄弱点</text>
+  <text x="180" y="366" text-anchor="middle" fill="#5a4a08" font-size="11">错题本 → 针对性重练 → 闭环</text>
+
+  <line x1="325" y1="310" x2="240" y2="322" stroke="#1a3a5c" stroke-width="2.5" marker-end="url(#ar2)"/>
+  <line x1="180" y1="320" x2="180" y2="190" stroke="#c9a227" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar2)"/>
+  <text x="200" y="200" text-anchor="middle" fill="#8a6d10" font-size="10">重练</text>
+
+  <text x="340" y="406" text-anchor="middle" fill="#5a6b7b" font-size="12">示例见 examples/sample-objective-question.md；模板见 templates/objective-single-template.md</text>
+</svg>
