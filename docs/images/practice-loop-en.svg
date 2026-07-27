@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="420" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="21" font-weight="bold">Practice Loop 练题闭环</text>
+
+  <!-- circular 4-step -->
+  <g>
+    <rect x="60" y="120" width="160" height="80" rx="12" fill="#1a3a5c"/>
+    <text x="140" y="152" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">1. Practice 练</text>
+    <text x="140" y="176" text-anchor="middle" fill="#c9d6e3" font-size="12">客观/主观题训练</text>
+
+    <rect x="260" y="120" width="160" height="80" rx="12" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+    <text x="340" y="152" text-anchor="middle" fill="#1a3a5c" font-size="15" font-weight="bold">2. Analyze 析</text>
+    <text x="340" y="176" text-anchor="middle" fill="#5a6b7b" font-size="12">解析 + 考点映射</text>
+
+    <rect x="460" y="120" width="160" height="80" rx="12" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+    <text x="540" y="152" text-anchor="middle" fill="#1a3a5c" font-size="15" font-weight="bold">3. Diagnose 诊</text>
+    <text x="540" y="176" text-anchor="middle" fill="#5a6b7b" font-size="12">错因 + 薄弱点</text>
+
+    <rect x="260" y="260" width="160" height="80" rx="12" fill="#c9a227"/>
+    <text x="340" y="292" text-anchor="middle" fill="#1a2233" font-size="15" font-weight="bold">4. Consolidate 固</text>
+    <text x="340" y="316" text-anchor="middle" fill="#5a4a08" font-size="12">考点卡 + 复盘</text>
+  </g>
+
+  <line x1="220" y1="160" x2="258" y2="160" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="420" y1="160" x2="458" y2="160" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="540" y1="200" x2="540" y2="258" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="140" y1="200" x2="140" y2="258" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="540" y1="300" x2="430" y2="300" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="160" y1="300" x2="220" y2="160" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow2)" stroke-dasharray="5 4"/>
+
+  <text x="340" y="380" text-anchor="middle" fill="#5a6b7b" font-size="13">闭环迭代：每次模考后进入下一轮，直至薄弱点清零</text>
+</svg>
