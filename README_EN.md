@@ -97,24 +97,56 @@ legal-exam-prep/
 ## Flowcharts
 
 ### Architecture
-| Image | Content |
-|-------|---------|
-| `system-overview-en.svg` | System overview: 4 modules + traceability base |
-| `exam-structure-en.svg` | Exam structure: objective → subjective |
-| `question-types-en.svg` | Question types distribution |
-| `knowledge-query-en.svg` | Knowledge-point lookup flow |
-| `practice-loop-en.svg` | Practice loop: drill → analyze → diagnose → consolidate |
-| `mock-generation-en.svg` | Mock-question generation (clearly non-real) |
-| `study-workflow-en.svg` | Full study workflow |
+
+**system-overview-en.svg** — System overview: 4 modules + traceability base
+
+![System overview](docs/images/system-overview-en.svg)
+
+**exam-structure-en.svg** — Exam structure: objective → subjective
+
+![Exam structure](docs/images/exam-structure-en.svg)
+
+**question-types-en.svg** — Question types distribution
+
+![Question types](docs/images/question-types-en.svg)
+
+**knowledge-query-en.svg** — Knowledge-point lookup flow
+
+![Knowledge lookup](docs/images/knowledge-query-en.svg)
+
+**practice-loop-en.svg** — Practice loop: drill → analyze → diagnose → consolidate
+
+![Practice loop](docs/images/practice-loop-en.svg)
+
+**mock-generation-en.svg** — Mock-question generation (clearly non-real)
+
+![Mock generation](docs/images/mock-generation-en.svg)
+
+**study-workflow-en.svg** — Full study workflow
+
+![Study workflow](docs/images/study-workflow-en.svg)
 
 ### Demos (how to actually use it)
-| Image | Demonstrates |
-|-------|--------------|
-| `demo-knowledge-lookup.svg` | From one question to one traceable knowledge card |
-| `demo-objective-practice.svg` | Objective drill → answer → analysis → error log → review loop |
-| `demo-subjective-training.svg` | Subjective 5-step method |
-| `demo-mock-question.svg` | Generate one mock question end-to-end |
-| `demo-end-to-end.svg` | A candidate's one-day prep flow |
+
+**demo-knowledge-lookup.svg** — From one question to one traceable knowledge card
+
+![Knowledge lookup demo](docs/images/demo-knowledge-lookup.svg)
+
+**demo-objective-practice.svg** — Objective drill → answer → analysis → error log → review loop
+
+![Objective practice demo](docs/images/demo-objective-practice.svg)
+
+**demo-subjective-training.svg** — Subjective 5-step method
+
+![Subjective training demo](docs/images/demo-subjective-training.svg)
+
+**demo-mock-question.svg** — Generate one mock question end-to-end
+
+![Mock question demo](docs/images/demo-mock-question.svg)
+
+**demo-end-to-end.svg** — A candidate's one-day prep flow
+
+![End-to-end demo](docs/images/demo-end-to-end.svg)
 
 ---
 
