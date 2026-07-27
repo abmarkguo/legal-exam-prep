@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3a5c"/><stop offset="1" stop-color="#122a44"/>
+    </linearGradient>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a3a5c"/>
+    </marker>
+  </defs>
+  <rect width="680" height="440" fill="#f5f7fa"/>
+  <rect x="0" y="0" width="680" height="52" fill="url(#navy)"/>
+  <text x="340" y="33" text-anchor="middle" fill="#fff" font-size="21" font-weight="bold">Mock Question Generation 模拟题命制</text>
+
+  <!-- Inputs -->
+  <rect x="40" y="100" width="180" height="56" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="130" y="124" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">Syllabus 大纲</text>
+  <text x="130" y="144" text-anchor="middle" fill="#5a6b7b" font-size="11">命题范围</text>
+
+  <rect x="40" y="180" width="180" height="56" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="130" y="204" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">New Statutes 新法</text>
+  <text x="130" y="224" text-anchor="middle" fill="#5a6b7b" font-size="11">修订热点</text>
+
+  <rect x="40" y="260" width="180" height="56" rx="10" fill="#ffffff" stroke="#1a3a5c" stroke-width="2"/>
+  <text x="130" y="284" text-anchor="middle" fill="#1a3a5c" font-size="13" font-weight="bold">Trends 命题趋势</text>
+  <text x="130" y="304" text-anchor="middle" fill="#5a6b7b" font-size="11">高频/易错</text>
+
+  <!-- Engine -->
+  <rect x="270" y="160" width="160" height="80" rx="12" fill="url(#navy)"/>
+  <text x="350" y="192" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Generation</text>
+  <text x="350" y="212" text-anchor="middle" fill="#c9d6e3" font-size="12">命制引擎</text>
+
+  <line x1="220" y1="128" x2="268" y2="178" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow3)"/>
+  <line x1="220" y1="208" x2="268" y2="200" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow3)"/>
+  <line x1="220" y1="288" x2="268" y2="222" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <!-- Outputs -->
+  <rect x="480" y="100" width="160" height="56" rx="10" fill="#c9a227"/>
+  <text x="560" y="124" text-anchor="middle" fill="#1a2233" font-size="13" font-weight="bold">New-Law Q 新法题</text>
+  <text x="560" y="144" text-anchor="middle" fill="#5a4a08" font-size="11">修订点考查</text>
+
+  <rect x="480" y="180" width="160" height="56" rx="10" fill="#c9a227"/>
+  <text x="560" y="204" text-anchor="middle" fill="#1a2233" font-size="13" font-weight="bold">Cross-Subj 跨科题</text>
+  <text x="560" y="224" text-anchor="middle" fill="#5a4a08" font-size="11">综合应用</text>
+
+  <rect x="480" y="260" width="160" height="56" rx="10" fill="#c9a227"/>
+  <text x="560" y="284" text-anchor="middle" fill="#1a2233" font-size="13" font-weight="bold">Trap Q 陷阱题</text>
+  <text x="560" y="304" text-anchor="middle" fill="#5a4a08" font-size="11">易错识别</text>
+
+  <line x1="430" y1="200" x2="478" y2="128" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow3)"/>
+  <line x1="430" y1="200" x2="478" y2="208" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow3)"/>
+  <line x1="430" y1="200" x2="478" y2="288" stroke="#1a3a5c" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <!-- Disclaimer -->
+  <rect x="160" y="350" width="360" height="50" rx="9" fill="#fff4d6" stroke="#c9a227"/>
+  <text x="340" y="372" text-anchor="middle" fill="#8a6d10" font-size="12" font-weight="bold">⚠ All outputs labeled 【模拟题 · 非真题】</text>
+  <text x="340" y="390" text-anchor="middle" fill="#8a6d10" font-size="11">Never presented as official exam questions</text>
+</svg>
